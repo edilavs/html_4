@@ -1,0 +1,70 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face{
+    font-family: news-font;
+    src: url(/Fonts/PfdintextcondproMedium.ttf)
+}
+.news-box{
+display: flex;
+flex-direction: column;
+align-items: center ;
+height: 1000px;
+}
+
+.news-box .img-box{
+position: relative;
+width: 600px;
+height: 400px;
+}
+
+.news-box .img-box .date-time-views{
+    display: flex;
+    position: absolute;
+    height: 50px;
+    width: 300px;
+    left:0;
+    bottom: 0;
+    font-family: news-font;
+    font-size: 22px;
+    background-color: rgb(50, 104, 104);
+    color: white;
+    align-items: center;
+    padding-left: 20px;
+
+}
+
+.news-box .img-box .date-time-views .date{
+    margin: 10px;
+}
+
+.news-box .img-box .date-time-views .time{
+    margin: 10px;   
+}
+
+.news-box .img-box .date-time-views .views{
+    padding-left: 20px;
+    margin: 10px;   
+}
+
+.news-box .title-box{
+width: 600px;
+height: 120px;
+}
+
+.news-box .title-box .title{
+    display: flex;
+    font-family: news-font;
+    font-size: 22px;
+    align-items: center;
+    background-color:  rgb(75, 65, 65);;
+    color: white;
+    padding: 0px 30px;
+    height: 90px;
+    width: 620px;
+    padding: left 10px; 
+    
+}
